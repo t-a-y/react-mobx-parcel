@@ -9,6 +9,6 @@ Using [React][react] with [MobX][mobx], built with [Parcel][parcel] to allow a z
 ## Installation
 
 ```sh
-# yarn install
-# yarn serve
+# yarn
+# yarn start
 ```
