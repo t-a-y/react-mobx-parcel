@@ -1,14 +1,14 @@
 import React from "react";
 import { render } from "react-dom";
-import CounterStore from './store/CounterStore';
-import CounterView from './components/CounterView';
-import './app.scss'
+import AppStore from '~/src/store/AppStore';
+import View from '~/src/components/View';
+import '~/src/app.scss'
 
-const counterStore = new CounterStore();
+const appStore = new AppStore();
 
 render(
   <div>
-    <CounterView store={counterStore} />
+    <View store={appStore} />
   </div>,
   document.getElementById("root")
 );
